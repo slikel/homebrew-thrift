@@ -13,7 +13,7 @@ class ThriftAT013 < Formula
   depends_on "libtool" => :build
   depends_on "pkg-config" => :build
   depends_on "boost"
-  depends_on "openssl@1.1"
+  depends_on "openssl@3.0"
 
   uses_from_macos "flex" => :build
 
